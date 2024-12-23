@@ -1,0 +1,112 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+<title>Arm Solutions Company</title>
+{% endblock %}
+{% block meta %}
+<meta name="title" content="About Our Company | ARM Solutions UK">
+<meta name="index" content="about ARM Solutions, ARM Solutions company, UK web development company, ARM Solutions team, web development experts, software development UK, leading UK web development, Arm Solutions, Arm Solutions company">
+<meta name="description" content="Learn more about ARM Solutions, a leading web development company in the UK. Meet our team of experts and discover our commitment to delivering innovative digital solutions that drive success.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="About ARM Solutions | Leading UK Web Development Company">
+<meta property="og:description" content="Discover ARM Solutions, a premier web development company based in the UK. Learn about our expert team, our mission, and our dedication to providing top-notch digital services and innovative solutions.">
+<meta name="keywords" content="about ARM Solutions,Arm Solutions UK,Arm Solutions uk, ARM Solutions company, UK web development company, ARM Solutions team, web development experts, software development UK, leading UK web development, digital solutions, innovative web development">
+
+{% endblock %}
+{% block content %}
+<body
+    class="page-template page-template-page-templates page-template-tpl-company page-template-page-templatestpl-company-php page page-id-2 page-parent has-sidebar">
+        {% include 'includes/header.html' %}
+    <div id=site-wrapper class=site-wrapper>
+
+        <main  id=main class=site-content>
+            <section class="company-bannr bg-coer">
+                <img style="width:100%;height:970px" src="{% static 'images/back.webp' %}" class=bg-image alt="Company banner"
+>                <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)" class="company-banner__content text-white text-center" data-aos=fade-down data-aos-duration=1000>
+                    <h1>Transforming ideas into reality.</h1>
+                    <h5>Bring your vision to life. We craft websites that transform ideas into reality.</h5>
+                </div>
+            </section>
+
+            <div id=reviews></div>
+            <section class="our-industry text-center">
+                <div class=our-industry__left-bg data-aos=fade-right data-aos-duration=1000>&nbsp;</div>
+                <div class=container>
+                    <div class=our-industry__wrap data-aos=fade-up data-aos-duration=1000>
+                        <h4 class="title-lg">Masters of Industry with Proven Results </h4>
+                        <p>Across Dozens of Verticals.</p>
+                        <!-- <a href=../experts/index.html class="btn btn-primary">Preview Our Industries</a> -->
+                    </div>
+                </div>
+                <div class=our-industry__right-bg data-aos=fade-left data-aos-duration=1000>&nbsp;</div>
+            </section>
+            <section class=our-achievements>
+
+            </section>
+
+            <section class="block-career bg-cover">
+
+                <div class="container text-center">
+                    <div class="block-career__wrap " data-aos=fade-down data-aos-duration=1000>
+                        <h4 class="title-lg">Jump-start your career with arm solutions</h4>
+                        <p>If you're passionate about  taking your business to next level, we want to
+                            hear from you!</p>
+
+                    </div>
+                </div>
+            </section>
+
+            <section  class="inner-banner team-banner bg-cover" id=smooth-scroll-body>
+            <h4 style="text-align:center;padding-top:1rem;color:white;">Meet The Team</h4>
+                <div style="display:flex;justify-content:space-around;padding-top:4rem;align-items:center;" class="our-teams__wrap d-flex flex-wrap">
+
+                    <div class=our-teams__item data-aos=fade-up-right data-aos-duration=1000>
+                        <a href=./adam-james-franco/index.html class="bg-cover d-flex align-items-end">
+
+                                <img width=394 height=426 src="{% static 'images/Untitled.jg' %}">
+                            <div class="panel-text text-center">
+                                <h5> Paul Armstrong</h5>
+                                <span class=color-primary>Founder</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=our-teams__item data-aos=fade-up-right data-aos-duration=1000>
+                        <a href=./adam-james-franco/index.html class="bg-cover d-flex align-items-end">
+                            <picture>
+                          
+                                <img width=394 height=426 data-src=../media/michael-melen-smartsites.jpg class=bg-image
+                                    alt="michael melen" loading=eager style="display: none;">
+                            </picture>
+                            <div class="panel-text text-center">
+                                <h5>Bishal murmu</h5>
+                                <span class=color-primary>Co-Founder</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class=our-teams__item data-aos=fade-up-right data-aos-duration=1000>
+                        <a href=./adam-james-franco/index.html class="bg-cover d-flex align-items-end">
+                            <picture>
+                              
+                                <img width=394 height=426 data-src=../media/smartsites-beth-bendon.jpg class=bg-image
+                                    alt="Meet SmartSites team Beth Bendon" loading=eager style="display: none;">
+                            </picture>
+                            <div class="panel-text text-center">
+                                <h5>Sandesh Sitaula</h5>
+                                <span class=color-primary>Co-Founder</span>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+        <!-- footer  -->
+       {% include 'includes/footer.html' %}
+    <link rel=stylesheet href="{% static 'wp-content/cache/minify/4b06f.css' %}" media=all>
+    <script async src="{% static 'wp-content/cache/minify/8115f.js' %}"></script>
+    <script async src="{% static 'wp-content/cache/minify/aba2a.js' %}"></script>
+</body>
+
+{% endblock %}

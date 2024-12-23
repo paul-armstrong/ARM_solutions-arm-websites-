@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block title %}
+<title>Arm Solution Contact Success</title>
+{% endblock %}
+{% block meta %}
+<meta name="title" content="Contact Us | ARM Solutions UK">
+<meta name="index" content="contact ARM Solutions,Arm Solutions,Arm Solutions Uk,arm Solutions uk, get in touch, UK web development contact, ARM Solutions customer support, ARM Solutions contact information, web development inquiries, ARM Solutions UK support">
+<meta name="description" content="Get in touch with ARM Solutions for all your web development needs. Contact us today for inquiries, support, or to start your project with our expert team. We are here to help you succeed.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact ARM Solutions | UK Web Development Company">
+<meta property="og:description" content="Reach out to ARM Solutions UK for any inquiries or support. Connect with our expert team to discuss your web development project or get assistance with our top-notch services. We are dedicated to providing the best solutions for your needs.">
+<meta name="keywords" content="contact ARM Solutions, get in touch, UK web development contact, ARM Solutions customer support, ARM Solutions contact information, web development inquiries, ARM Solutions UK support, expert web development assistance">
+
+{% endblock %}
+
+{% block content %}
+<body
+    class="page-template page-template-page-templates page-template-tpl-company page-template-page-templatestpl-company-php page page-id-2 page-parent has-sidebar">
+        {% include 'includes/header.html' %}
+    <div id=site-wrapper class=site-wrapper>
+Thank you for your time.
+Your form has been submitted sucessfully.
+And you will soon be contacted via email or phone.
+ <a href="{% url 'services' %}" class="btn btn-primary d-none d-md-block">Explore
+                                Arm solutions</a>
+{% include 'includes/footer.html' with contact="hello" %}
+</div>
+</body>
+{% endblock %}

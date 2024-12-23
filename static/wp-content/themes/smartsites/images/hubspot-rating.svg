@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="153.4" height="59" viewBox="0 0 153.4 59">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__Rectangle_637" d="M0 0H34.939V36.613H0z" class="prefix__cls-1" data-name="Rectangle 637"/>
+        </clipPath>
+        <style>
+            .prefix__cls-1{fill:none}.prefix__cls-3{fill:#f5c26b}
+        </style>
+    </defs>
+    <g id="prefix__Group_1130" data-name="Group 1130" transform="translate(-771 -45)">
+        <circle id="prefix__Oval_3" cx="29.5" cy="29.5" r="29.5" data-name="Oval 3" transform="translate(771 45)" style="fill:#fff"/>
+        <g id="prefix__star" transform="translate(838 66)">
+            <path id="prefix__Path_2773" d="M0 0h17.4v17.4H0z" class="prefix__cls-1" data-name="Path 2773"/>
+            <path id="prefix__Path_2774" d="M9.25 13.071l4.481 2.7-1.189-5.1L16.5 7.249l-5.213-.442L9.25 2 7.213 6.807 2 7.249l3.959 3.429-1.189 5.1z" class="prefix__cls-3" data-name="Path 2774" transform="translate(-.55 -.55)"/>
+            <path id="prefix__Path_2775" d="M0 0h17.4v17.4H0z" class="prefix__cls-1" data-name="Path 2775"/>
+        </g>
+        <g id="prefix__star-2" data-name="star" transform="translate(855 66)">
+            <path id="prefix__Path_2773-2" d="M0 0h17.4v17.4H0z" class="prefix__cls-1" data-name="Path 2773"/>
+            <path id="prefix__Path_2774-2" d="M9.25 13.071l4.481 2.7-1.189-5.1L16.5 7.249l-5.213-.442L9.25 2 7.213 6.807 2 7.249l3.959 3.429-1.189 5.1z" class="prefix__cls-3" data-name="Path 2774" transform="translate(-.55 -.55)"/>
+            <path id="prefix__Path_2775-2" d="M0 0h17.4v17.4H0z" class="prefix__cls-1" data-name="Path 2775"/>
+        </g>
+        <g id="prefix__star-3" data-name="star" transform="translate(873 66)">
+            <path id="prefix__Path_2773-3" d="M0 0h17.4v17.4H0z" class="prefix__cls-1" data-name="Path 2773"/>
+            <path id="prefix__Path_2774-3" d="M9.25 13.071l4.481 2.7-1.189-5.1L16.5 7.249l-5.213-.442L9.25 2 7.213 6.807 2 7.249l3.959 3.429-1.189 5.1z" class="prefix__cls-3" data-name="Path 2774" transform="translate(-.55 -.55)"/>
+            <path id="prefix__Path_2775-3" d="M0 0h17.4v17.4H0z" class="prefix__cls-1" data-name="Path 2775"/>
+        </g>
+        <g id="prefix__star-4" data-name="star" transform="translate(890 66)">
+            <path id="prefix__Path_2773-4" d="M0 0h17.4v17.4H0z" class="prefix__cls-1" data-name="Path 2773"/>
+            <path id="prefix__Path_2774-4" d="M9.25 13.071l4.481 2.7-1.189-5.1L16.5 7.249l-5.213-.442L9.25 2 7.213 6.807 2 7.249l3.959 3.429-1.189 5.1z" class="prefix__cls-3" data-name="Path 2774" transform="translate(-.55 -.55)"/>
+            <path id="prefix__Path_2775-4" d="M0 0h17.4v17.4H0z" class="prefix__cls-1" data-name="Path 2775"/>
+        </g>
+        <g id="prefix__star-5" data-name="star" transform="translate(907 66)">
+            <path id="prefix__Path_2773-5" d="M0 0h17.4v17.4H0z" class="prefix__cls-1" data-name="Path 2773"/>
+            <path id="prefix__Path_2774-5" d="M9.25 13.071l4.481 2.7-1.189-5.1L16.5 7.249l-5.213-.442L9.25 2 7.213 6.807 2 7.249l3.959 3.429-1.189 5.1z" class="prefix__cls-3" data-name="Path 2774" transform="translate(-.55 -.55)"/>
+            <path id="prefix__Path_2775-5" d="M0 0h17.4v17.4H0z" class="prefix__cls-1" data-name="Path 2775"/>
+        </g>
+        <g id="prefix__Group_1093" data-name="Group 1093" transform="translate(783 56)">
+            <path id="prefix__Path_2785" d="M402.875 12.042V7.683a3.356 3.356 0 0 0 1.936-3.025v-.1a3.356 3.356 0 0 0-3.357-3.358h-.1A3.356 3.356 0 0 0 398 4.557v.1a3.356 3.356 0 0 0 1.936 3.025v4.359a9.506 9.506 0 0 0-4.52 1.989l-11.957-9.31a3.749 3.749 0 0 0 .134-.942 3.782 3.782 0 1 0-3.786 3.775 3.741 3.741 0 0 0 1.862-.506l11.772 9.159a9.535 9.535 0 0 0 .145 10.741l-3.58 3.58a3.075 3.075 0 0 0-.9-.145 3.106 3.106 0 1 0 3.108 3.107 3.063 3.063 0 0 0-.145-.894l3.542-3.542a9.55 9.55 0 1 0 7.259-17.011m-1.468 14.335a4.9 4.9 0 1 1 4.9-4.9 4.9 4.9 0 0 1-4.9 4.9" data-name="Path 2785" transform="translate(-376.032 .008)" style="fill:#ff7a59"/>
+        </g>
+    </g>
+</svg>

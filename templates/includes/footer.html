@@ -1,0 +1,170 @@
+{% load static %}
+<footer style="margin-bottom:0;" id=footer class="site-footer footer-sticky">
+            <div class=footer__top>
+                <div class=container>
+                    <div class="column-wrap d-flex flex-wrap">
+                        <div class=footer__top-form data-aos=fade-right data-aos-duration=1000>
+                        {% if not contact %}
+
+                            <div class='gf_browser_chrome gform_wrapper form-display2_wrapper gform_legacy_markup_wrapper'
+                                id=gform_wrapper_2 style=display:none>
+                                <div class=gform_heading>
+                                    <h3 class="gform_title">Get Started</h3>
+                                </div>
+                                <form method=post action="{% url 'contact' %}"
+                                    class='form-display2 gform_legacy_markup' >
+                                    {% csrf_token %}
+                                    <div class='gform_body gform-body'>
+                                        <ul id=gform_fields_2
+                                            class='gform_fields top_label form_sublabel_below description_below'>
+                                            <li id=field_2_1
+                                                class="gfield user-icon gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"
+                                               >
+                                                <div class='ginput_container ginput_container_text'><input name="full_name" required type=text                                                        class=medium  placeholder='Full Name*'                                                        aria-required=true
+                                                        >
+                                                </div>
+                                            </li>
+
+                                            <li id=field_2_2
+                                                class="gfield mail-icon gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"
+                                                >
+                                                <div class='ginput_container ginput_container_email'>
+                                                    <input name="email" required type=email class=medium                                                         placeholder='Email Address*' aria-required=true                                  >
+                                                </div>
+                                            </li>
+                                            <li id=field_2_3
+                                                class="gfield phone-icon gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"
+                                                data-js-reload=field_2_3>
+                                                <div class='ginput_container ginput_container_phone'><input name="phone_number" required type=tel                                                         class=medium  placeholder='Phone Number*'                                                        aria-required=true
+                                                        >
+                                                </div>
+                                            </li>
+                                            <li id=field_2_4
+                                                class="gfield company-icon field_sublabel_below field_description_below gfield_visibility_visible"
+                                                data-js-reload=field_2_4>
+                                                <div class='ginput_container ginput_container_text'><input name="company"                                                         type=text  class=medium                                                         placeholder=Company >
+                                                </div>
+                                            </li>
+
+                                            <li id=field_2_6
+                                                class="gfield help-icon focus-increase field_sublabel_below field_description_below gfield_visibility_visible"
+                                                data-js-reload=field_2_6>
+                                                <div class='ginput_container ginput_container_textarea'><textarea
+                                                        name="help" class='textarea medium' placeholder='How can we help you?'  rows=10                                                        cols=50></textarea>
+                                                        </div>
+                                            </li>
+                                             <input type="hidden" name="referer" value="{{ request.path }}">
+                                            <li id=field_2_12
+                                                class="gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible"
+                                                data-js-reload=field_2_12></li>
+                                            <li id=field_2_20
+                                                class="gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible"
+                                                data-js-reload=field_2_20></li>
+                                            <li id=field_2_11
+                                                class="gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible"
+                                                data-js-reload=field_2_11></li>
+                                            <li id=field_2_14
+                                                class="gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible"
+                                                data-js-reload=field_2_14>
+                                                <div class='ginput_container ginput_container_text'><input name=input_14
+                                                        id=input_2_14 type=hidden class=gform_hidden aria-invalid=false
+                                                        value=Prospect></div>
+                                            </li>
+                                            <li id=field_2_15
+                                                class="gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible"
+                                                data-js-reload=field_2_15>
+                                                <div class='ginput_container ginput_container_text'><input name=input_15
+                                                        id=input_2_15 type=hidden class=gform_hidden aria-invalid=false
+                                                        value='Contact Form'></div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class='gform_footer top_label'> <input type=submit id=gform_submit_button_2
+                                            class='gform_button button' value=Submit tabindex=507
+                                            onclick='if(window["gf_submitting_2"]){return false;}  if( !jQuery("#gform_2")[0].checkValidity || jQuery("#gform_2")[0].checkValidity()){window["gf_submitting_2"]=true;}  '
+                                            onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_2"]){return false;} if( !jQuery("#gform_2")[0].checkValidity || jQuery("#gform_2")[0].checkValidity()){window["gf_submitting_2"]=true;}  jQuery("#gform_2").trigger("submit",[true]); }'>
+                                        <input type=hidden name=gform_ajax
+                                            value='form_id=2&amp;title=1&amp;description=&amp;tabindex=500'>
+                                        <input type=hidden class=gform_hidden name=is_submit_2 value=1>
+                                        <input type=hidden class=gform_hidden name=gform_submit value=2>
+                                        <input type=hidden class=gform_hidden name=gform_unique_id value>
+                                        <input type=hidden class=gform_hidden name=state_2
+                                            value='WyJbXSIsIjMwODEyOWNhMjQwZTA3ZmYzYTI2YmQ1YjY2ODJjOWRkIl0='>
+                                        <input type=hidden class=gform_hidden name=gform_target_page_number_2
+                                            id=gform_target_page_number_2 value=0>
+                                        <input type=hidden class=gform_hidden name=gform_source_page_number_2
+                                            id=gform_source_page_number_2 value=1>
+                                        <input type=hidden name=gform_field_values value>
+                                    </div>
+                                    <p style="display: none !important;"><label>&#916;<textarea name=ak_hp_textarea
+                                                cols=45 rows=8 maxlength=100></textarea></label><input type=hidden
+                                            id=ak_js_2 name=ak_js value=161>
+                                        <script>document.getElementById("ak_js_2").setAttribute("value", (new Date()).getTime());</script>
+                                    </p>
+                                </form>
+                            </div>
+                            {% endif %}
+
+                        </div>
+                        <div class=column-right data-aos=fade-left data-aos-duration=1000>
+                            <div class="footer__promo text-white pl-0">
+                                <h4 class="font-weight-semibold">
+                                    Ready to speak with our expert? Give us a ring
+                                    <a href=tel:07444106984 class=d-inline-block>07444106984</a>
+                                </h4>
+                                <ul class="list-unstyled bullet-check h5">
+                                    <li>Leading<span class=font-weight-semibold> Web Development </span> Company</li>
+                                    <li><span class=font-weight-semibold>10+</span> Websites Launched</li>
+                                    <li><span class=font-weight-semibold>£5K+</span> Client Revenue Generated</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+                </div>
+
+
+            </div>
+            <div class="footer__bottom lazyload">
+                <template>
+                    <div class=container>
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-lg-7 order-1">
+                                <div class="holder logo-social">
+                                    <a class=navbar-brand href=index.html><img fetchpriority=high
+                                       src="{% static 'images/logo.png' %}" alt="arm solutions.A web development company"
+                                            width=208 height=43></a>
+                                    <ul class=sf-social>
+                                        <li>
+                                            <a href="" target=_blank><i class=icon-ft-facebook></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="" target=_blank><i class=icon-ft-twitter></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="" target=_blank><i class=icon-ft-instagram></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="" target=_blank><i class=icon-ft-youtube></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="" target=_blank><i class=icon-ft-linkdin></i></a>
+                                        </li>
+                                    </ul>
+                                    <div class="copyright sf-nav"><a href="{% url 'privacy_policy' %}" class=sf-nav>Privacy
+                                            Policy</a> &copy; 2024 All Rights Reserved.</div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-5 order-2 order-lg-3 text-center text-lg-right"></div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+
+
+        </footer>
+

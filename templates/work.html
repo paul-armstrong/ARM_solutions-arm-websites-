@@ -1,0 +1,116 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+<title>Arm Solutions Work </title>
+{% endblock %}
+{% block meta %}
+<meta name="title" content="ARM Solutions Portfolio">
+<meta name="index" content="web development portfolio, software projects, web design work, ARM Solutions, ARM Solutions portfolio, UK web development, digital solutions, software development portfolio">
+<meta name="description" content="Take a look at the portfolio of ARM Solutions in the UK. Discover our web development projects, software solutions, and web design work that showcase our expertise and innovation. Explore our commitment to quality and creativity in delivering exceptional digital solutions.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Our Web Development and Software Projects | ARM Solutions UK">
+<meta property="og:description" content="Explore the portfolio of ARM Solutions UK. View our web development and software projects, demonstrating our commitment to quality and innovation in digital solutions. See how we bring creativity and expertise to every project.">
+<meta name="keywords" content="web development portfolio, software projects, web design work, ARM Solutions, ARM Solutions portfolio, UK web development, digital solutions, software development portfolio, innovative web projects">
+
+
+{% endblock %}
+{% block content %}
+<body
+    class="page-template page-template-page-templates page-template-tpl-our-work page-template-page-templatestpl-our-work-php page page-id-158 has-sidebar">
+
+    {% include 'includes/header.html' %}
+
+        <main  id=main class=site-content>
+            <section class="case-studies case-studies--sub case-studies--work">
+                <div class="block-title d-md-none d-block">
+                    <h2>Our Work</h2>
+                    <p>Explore the best in Web Design and Development by ArmSolutions.
+                        </p>
+                </div>
+
+                <div class=container-fluid>
+                    <div class=row>
+
+                        <div class="col-xl-12 col-lg-12 col-md-12" id=content-section>
+                            <div class=filter-section>
+                                <div class="case-studies__content card-deck--design">
+                                    <div class="block-title d-none d-md-block">
+                                        <h1>Our Work</h1>
+                                        <p>Explore the best in  Web Design and Development by ArmSolutions.
+                                            </p>
+                                    </div>
+                                    <div class="row card-deck card-deck--design">
+                                        <div class=col-lg-6>
+                                            <div class="card card--alt same-height">
+                                                <div class=card-header><a
+                                                        href="https://maplecourtyarddesigns.co.uk" target="_blank">Maple Court Yard Designs</a></div>
+                                                <div class=card-body>
+                                                    <figure>
+                                                        <a
+                                                            href="https://maplecourtyarddesigns.co.uk" target="_blank"><img
+                                                                width=570 height=348
+                                                                src="{% static 'workimages/maple.png' %}"
+                                                                class="attachment-showcase size-showcase"
+                                                                alt="Handmade Cards selling Ecommerce Site"                                                                fetchpriority=high data-preload=1></a>
+                                                    </figure>
+                                                </div>
+                                                <div class=card-footer>
+                                                    <div class=card>
+                                                        <strong
+                                                            class="d-block font-weight-normal">
+                                                            <p style="font-size:1.2rem;">
+We collaborated with Maple Court Yard Designs to create a visually appealing and functional website that truly represents their brand of handcrafted, personalized greeting cards. Our primary objective was to design a site that captures the essence of their unique products and makes it easy for customers to browse and purchase cards for various occasions. By incorporating high-quality images, detailed product descriptions, and an intuitive layout, we ensured a seamless shopping experience for their customers.
+                                                            <br />
+Our team focused on optimizing the site for performance and accessibility, ensuring it is responsive across all devices. We also integrated a user-friendly personalization feature, allowing customers to add their own special messages to the cards, making each purchase truly unique. The result is a beautifully crafted website that not only highlights the exquisite detail and craftsmanship of Maple Court Yard Designs' products but also enhances their online presence and customer engagement. .</p>
+                                                        </strong>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class=col-lg-6>
+                                            <div class="card card--alt same-height">
+                                                <div class=card-header><a
+                                                        href="https://heywoodelectrical.co.uk" target="_blank">Heywood Electrical</a></div>
+                                                <div class=card-body>
+                                                    <figure>
+                                                        <a
+                                                            href="https://heywoodelectrical.co.uk" target="_blank"><img
+                                                                width=570 height=348 src="{% static 'workimages/electric.png' %}"
+                                                                class="attachment-showcase size-showcase"
+                                                                alt="AGA Truck Parts Organic SEO Industrial &amp; Commercial"
+                                                            fetchpriority=high data-preload=1></a>
+                                                    </figure>
+                                                </div>
+                                                <div class=card-footer>
+                                                    <div class=card>
+                                                                <strong
+                                                            class="d-block font-weight-normal">
+                                                            <p style="font-size:1.2rem">
+We partnered with Heywood Electrical & Sons LTD to create a modern, user-friendly website that effectively showcases their extensive range of electrical services. Our goal was to highlight their expertise in industrial, commercial, and domestic electrical work, emphasizing their long-standing reputation and commitment to quality. By designing an intuitive layout and incorporating detailed service descriptions, we ensured visitors can easily navigate the site and find the information they need.
+<br />
+Our team focused on enhancing the online presence of Heywood Electrical & Sons LTD by implementing responsive design principles, ensuring the site performs seamlessly across all devices. We integrated a comprehensive portfolio section to display their past projects and achievements, along with a contact form to facilitate direct communication with potential clients. The result is a professional and polished website that accurately reflects the company's values and capabilities, helping them reach a broader audience and grow their business.
+.</p>
+                                                        </strong>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+       
+{% include 'includes/footer.html' %}
+
+    <script async src="{% static 'wp-content/cache/minify/8115f.js' %}"></script>
+
+</body>
+{% endblock %}

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="151.4" height="59" viewBox="0 0 151.4 59">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:none}.prefix__cls-3{fill:#ef4335}
+        </style>
+    </defs>
+    <g id="prefix__Group_1129" data-name="Group 1129" transform="translate(-539 -138)">
+        <circle id="prefix__Oval_3" cx="29.5" cy="29.5" r="29.5" data-name="Oval 3" transform="translate(539 138)" style="fill:#fff"/>
+        <g id="prefix__star" transform="translate(604 159)">
+            <path id="prefix__Path_2773" d="M0 0h17.4v17.4H0z" class="prefix__cls-2" data-name="Path 2773"/>
+            <path id="prefix__Path_2774" d="M9.25 13.071l4.481 2.7-1.189-5.1L16.5 7.249l-5.213-.442L9.25 2 7.213 6.807 2 7.249l3.959 3.429-1.189 5.1z" class="prefix__cls-3" data-name="Path 2774" transform="translate(-.55 -.55)"/>
+            <path id="prefix__Path_2775" d="M0 0h17.4v17.4H0z" class="prefix__cls-2" data-name="Path 2775"/>
+        </g>
+        <g id="prefix__star-2" data-name="star" transform="translate(621 159)">
+            <path id="prefix__Path_2773-2" d="M0 0h17.4v17.4H0z" class="prefix__cls-2" data-name="Path 2773"/>
+            <path id="prefix__Path_2774-2" d="M9.25 13.071l4.481 2.7-1.189-5.1L16.5 7.249l-5.213-.442L9.25 2 7.213 6.807 2 7.249l3.959 3.429-1.189 5.1z" class="prefix__cls-3" data-name="Path 2774" transform="translate(-.55 -.55)"/>
+            <path id="prefix__Path_2775-2" d="M0 0h17.4v17.4H0z" class="prefix__cls-2" data-name="Path 2775"/>
+        </g>
+        <g id="prefix__star-3" data-name="star" transform="translate(639 159)">
+            <path id="prefix__Path_2773-3" d="M0 0h17.4v17.4H0z" class="prefix__cls-2" data-name="Path 2773"/>
+            <path id="prefix__Path_2774-3" d="M9.25 13.071l4.481 2.7-1.189-5.1L16.5 7.249l-5.213-.442L9.25 2 7.213 6.807 2 7.249l3.959 3.429-1.189 5.1z" class="prefix__cls-3" data-name="Path 2774" transform="translate(-.55 -.55)"/>
+            <path id="prefix__Path_2775-3" d="M0 0h17.4v17.4H0z" class="prefix__cls-2" data-name="Path 2775"/>
+        </g>
+        <g id="prefix__star-4" data-name="star" transform="translate(656 159)">
+            <path id="prefix__Path_2773-4" d="M0 0h17.4v17.4H0z" class="prefix__cls-2" data-name="Path 2773"/>
+            <path id="prefix__Path_2774-4" d="M9.25 13.071l4.481 2.7-1.189-5.1L16.5 7.249l-5.213-.442L9.25 2 7.213 6.807 2 7.249l3.959 3.429-1.189 5.1z" class="prefix__cls-3" data-name="Path 2774" transform="translate(-.55 -.55)"/>
+            <path id="prefix__Path_2775-4" d="M0 0h17.4v17.4H0z" class="prefix__cls-2" data-name="Path 2775"/>
+        </g>
+        <g id="prefix__star-5" data-name="star" transform="translate(673 159)">
+            <path id="prefix__Path_2773-5" d="M0 0h17.4v17.4H0z" class="prefix__cls-2" data-name="Path 2773"/>
+            <path id="prefix__Path_2774-5" d="M9.25 13.071l4.481 2.7-1.189-5.1L16.5 7.249l-5.213-.442L9.25 2 7.213 6.807 2 7.249l3.959 3.429-1.189 5.1z" class="prefix__cls-3" data-name="Path 2774" transform="translate(-.55 -.55)"/>
+            <path id="prefix__Path_2775-5" d="M0 0h17.4v17.4H0z" class="prefix__cls-2" data-name="Path 2775"/>
+        </g>
+        <g id="prefix__Group_1094" data-name="Group 1094" transform="translate(3995 -1522.095)">
+            <path id="prefix__Path_2787" d="M432.971 314.646a11.872 11.872 0 0 1-7.145 2.632c-6.017 0-10.153-4.512-10.153-10.529s4.136-10.153 10.153-10.153a9.926 9.926 0 0 1 7.145 2.632l1.128 1.128 6.017-5.641-1.5-1.128a19.281 19.281 0 0 0-12.785-4.888 18.426 18.426 0 1 0 0 36.851 19.281 19.281 0 0 0 12.785-4.888l1.5-1.128-6.017-6.017z" data-name="Path 2787" transform="translate(-3850.4 1382.395)" style="fill:#17313b"/>
+            <circle id="prefix__Ellipse_55" cx="6.017" cy="6.017" r="6.017" class="prefix__cls-3" data-name="Ellipse 55" transform="translate(-3433 1683.504)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="153.4" height="59" viewBox="0 0 153.4 59">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:none}.prefix__cls-3,.prefix__cls-5{fill:#d70000}.prefix__cls-5{font-size:9px;font-family:Arial-BoldItalicMT,Arial;font-weight:700;font-style:italic}
+        </style>
+    </defs>
+    <g id="prefix__Group_1128" data-name="Group 1128" transform="translate(-538 -230)">
+        <circle id="prefix__Oval_3" cx="29.5" cy="29.5" r="29.5" data-name="Oval 3" transform="translate(538 230)" style="fill:#fff"/>
+        <g id="prefix__star" transform="translate(604 251)">
+            <path id="prefix__Path_2773" d="M0 0h17.4v17.4H0z" class="prefix__cls-2" data-name="Path 2773"/>
+            <path id="prefix__Path_2774" d="M9.25 13.071l4.481 2.7-1.189-5.1L16.5 7.249l-5.213-.442L9.25 2 7.213 6.807 2 7.249l3.959 3.429-1.189 5.1z" class="prefix__cls-3" data-name="Path 2774" transform="translate(-.55 -.55)"/>
+            <path id="prefix__Path_2775" d="M0 0h17.4v17.4H0z" class="prefix__cls-2" data-name="Path 2775"/>
+        </g>
+        <g id="prefix__star-2" data-name="star" transform="translate(622 251)">
+            <path id="prefix__Path_2773-2" d="M0 0h17.4v17.4H0z" class="prefix__cls-2" data-name="Path 2773"/>
+            <path id="prefix__Path_2774-2" d="M9.25 13.071l4.481 2.7-1.189-5.1L16.5 7.249l-5.213-.442L9.25 2 7.213 6.807 2 7.249l3.959 3.429-1.189 5.1z" class="prefix__cls-3" data-name="Path 2774" transform="translate(-.55 -.55)"/>
+            <path id="prefix__Path_2775-2" d="M0 0h17.4v17.4H0z" class="prefix__cls-2" data-name="Path 2775"/>
+        </g>
+        <g id="prefix__star-3" data-name="star" transform="translate(640 251)">
+            <path id="prefix__Path_2773-3" d="M0 0h17.4v17.4H0z" class="prefix__cls-2" data-name="Path 2773"/>
+            <path id="prefix__Path_2774-3" d="M9.25 13.071l4.481 2.7-1.189-5.1L16.5 7.249l-5.213-.442L9.25 2 7.213 6.807 2 7.249l3.959 3.429-1.189 5.1z" class="prefix__cls-3" data-name="Path 2774" transform="translate(-.55 -.55)"/>
+            <path id="prefix__Path_2775-3" d="M0 0h17.4v17.4H0z" class="prefix__cls-2" data-name="Path 2775"/>
+        </g>
+        <g id="prefix__star-4" data-name="star" transform="translate(657 251)">
+            <path id="prefix__Path_2773-4" d="M0 0h17.4v17.4H0z" class="prefix__cls-2" data-name="Path 2773"/>
+            <path id="prefix__Path_2774-4" d="M9.25 13.071l4.481 2.7-1.189-5.1L16.5 7.249l-5.213-.442L9.25 2 7.213 6.807 2 7.249l3.959 3.429-1.189 5.1z" class="prefix__cls-3" data-name="Path 2774" transform="translate(-.55 -.55)"/>
+            <path id="prefix__Path_2775-4" d="M0 0h17.4v17.4H0z" class="prefix__cls-2" data-name="Path 2775"/>
+        </g>
+        <g id="prefix__star-5" data-name="star" transform="translate(674 251)">
+            <path id="prefix__Path_2773-5" d="M0 0h17.4v17.4H0z" class="prefix__cls-2" data-name="Path 2773"/>
+            <path id="prefix__Path_2774-5" d="M9.25 13.071l4.481 2.7-1.189-5.1L16.5 7.249l-5.213-.442L9.25 2 7.213 6.807 2 7.249l3.959 3.429-1.189 5.1z" class="prefix__cls-3" data-name="Path 2774" transform="translate(-.55 -.55)"/>
+            <path id="prefix__Path_2775-5" d="M0 0h17.4v17.4H0z" class="prefix__cls-2" data-name="Path 2775"/>
+        </g>
+        <g id="prefix__Group_1125" data-name="Group 1125" transform="translate(96 -236)">
+            <path id="prefix__Path_2804" d="M25.254 37.9V12.722l9.437 9.524v-6.732L22.9 3.607 11.1 15.514v6.733l9.437-9.524V37.9z" data-name="Path 2804" transform="translate(438.9 474.393)" style="fill:#333;fill-rule:evenodd"/>
+            <g id="prefix__Group_1104" data-name="Group 1104" transform="translate(465.67 502.222)">
+                <text id="prefix__E" class="prefix__cls-5" transform="translate(6.598 8.497)">
+                    <tspan x="0" y="0">E</tspan>
+                </text>
+                <g id="prefix__Group_1103" data-name="Group 1103">
+                    <text id="prefix__S" class="prefix__cls-5" transform="translate(0 8)">
+                        <tspan x="0" y="0">S</tspan>
+                    </text>
+                    <text id="prefix__O" class="prefix__cls-5" transform="rotate(2.56 -206.861 357.407)">
+                        <tspan x="0" y="0">O</tspan>
+                    </text>
+                    <text id="prefix__s-2" data-name="s" transform="translate(22.425 7.987)" style="font-size:8px;font-family:Arial-BoldItalicMT,Arial;font-weight:700;font-style:italic;fill:#d70000">
+                        <tspan x="0" y="0">s</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

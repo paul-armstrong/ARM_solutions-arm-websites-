@@ -1,0 +1,33 @@
+{% if messages %}
+
+    {% for message in messages %}
+    <div style="color:#ffc720;text-align:center;"  id="alert_message" >
+
+    <div {% if message.tags %} class="alert alert-{{ message.tags }}"{% endif %} role="alert" style='z-index:100;position:relative'>
+       
+    <button  type="button" onclick="handleAlertclose()" style="cursor:pointer;margin-right:1rem;" class="close" data-dismiss="alert">
+    <span aria-hidden="true" style="cursor:pointer;" >&times;</span></button>
+    
+    
+    {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}Important: {% endif %}
+        {{ message }}
+</div>
+<script>
+
+function handleAlertclose(){
+
+const message=document.getElementById('alert_message')
+message.style.display='none'
+}
+const message=document.getElementById('alert_message')
+if (!!message){
+setTimeout(()=>{
+handleAlertclose()
+},7000)
+}
+
+</script>
+</div>
+    {% endfor %}
+
+{% endif %}

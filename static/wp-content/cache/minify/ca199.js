@@ -1,0 +1,6 @@
+(function($){function makeLazyPlugin(name,css_url,js_url){$.fn[name]=function(options){if(this.length){if(css_url){window._loader().loadStyle(css_url,{append:false});}
+if(js_url){window._loader().loadScript(js_url,{callback:function(){$(this)[name](options);}.bind(this)});}}};}
+if(lazyPlugins){$.each(lazyPlugins,function(index,plugin){makeLazyPlugin(plugin.name,plugin.hasOwnProperty('css')?plugin.css:null,plugin.hasOwnProperty('js')?plugin.js:null);});}})(jQuery);;(function($){$(document).ready(function(){function fillInHiddenField($form){if(!$form.length){return;}
+$hiddenInput=$form.find('[name="_js"]');if(!$hiddenInput.length){$hiddenInput=$('<input>').attr({type:'hidden',name:'_js'}).appendTo($form);}
+$hiddenInput.val([window.location.pathname,$form.get(0).id.replace(/\D+/,'')].join("|"));}
+$(document).on('gform_post_render',function(event,form_id,current_page){fillInHiddenField($('form[id^="gform_'+form_id+'"]'));});$(document).on('change click','form[id^="gform_"]',function(e){fillInHiddenField($(this).closest('form'));});});})(jQuery);

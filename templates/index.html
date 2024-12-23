@@ -1,0 +1,293 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+<title>ARM Solutions UK</title>
+{% endblock %}
+{% block meta %}
+<meta name="title" content="Premier Web Development and Maintenance Services | ARM Solutions UK">
+<meta name="index" content="web development, UK web development, custom websites, ARM Solutions, UK software development, web maintenance, digital solutions, web applications, bespoke web design , Arm Solutions,Arm Solutions UK,ARM Solutions UK" >
+<meta name="description" content="Discover premier web development and maintenance services in the UK with ARM Solutions. From custom websites to intricate web applications, we bring your digital vision to life with innovative solutions tailored to your needs. Our team of experts ensures your online presence is robust and up-to-date.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Custom Web Development and Maintenance Services | ARM Solutions UK">
+<meta property="og:description" content="ARM Solutions offers professional web development and maintenance services in the UK. Specializing in custom websites and intricate web applications, we deliver innovative digital solutions tailored to your specific needs. Partner with us to enhance your online presence and ensure continuous performance.">
+<meta name="keywords" content="web development, UK web development, custom websites, ARM Solutions, UK software development, web maintenance, digital solutions, web applications, bespoke web design">
+
+
+
+{% endblock %}
+{% block content %}
+<body class="home page-template-default page page-id-1 has-sidebar">
+
+{% include 'includes/header.html' %}
+
+    <main style="margin-top:-140px" id=main class=site-content>
+
+    <style>
+@media (max-width: 576px) {
+.banner-home-index{
+margin-top:100px;
+}
+}
+    </style>
+
+        <section style="height:100vh;padding:0;" class="banner banner-home-index">
+            <img  class="d-block lazyload" alt="banner image in index page " src="{% static 'images/banner.jpg' %}" style="width:100%; height:100%;object-fit: fill;">
+
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); color: white; display: flex; align-items: center; justify-content: center; text-align: center;">
+
+                <div class=banner__content>
+                    <h1 data-aos="fade-down" data-aos-duration="1000">
+                        <span class="font-weight-light d-lg-block">Arms Solution</span>
+
+                        <span style="font-size:3rem;">Turning Ideas into Interactive Experiences</span>
+                    </h1>
+                    <div class="typed-text btm-margin-md" data-aos="fade-left" data-aos-duration="1000">
+                        <span class="h6 sm-block d-xs-block">We are passionate about</span>
+                        <div id="typed-items">
+                            <p>challenging our clients.</p>
+                            <p>our clients success.</p>
+                            <p>writing clean code.</p>
+                            <p>fostering creativity.</p>
+                            <p>innovation.</p>
+                            <p>designing beautiful websites.</p>
+                            <p>thought leadership.</p>
+                            <p>learning new technologies.</p>
+                            <p>SEO.</p>
+                            <p>helping brands grow.</p>
+                            <p>a great cup of coffee.</p>
+                            <p>custom development.</p>
+                        </div>
+                        <span id="typed" class="h6"></span>
+                    </div>
+                    
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            var typedItems = [];
+                            document.querySelectorAll("#typed-items p").forEach(function(item) {
+                                typedItems.push(item.textContent);
+                            });
+                    
+                            new Typed("#typed", {
+                                strings: typedItems,
+                                typeSpeed: 70,
+                                backSpeed: 50,
+                                backDelay: 500,
+                                startDelay: 1000,
+                                loop: true
+                            });
+                        });
+                    </script>
+                    
+                    <div class="banner__form form__horizontal" data-aos=fade-up data-aos-duration=1000>
+                        <div class=form-wrap>
+                            <div class=form-body>
+
+                                <div class='gf_browser_chrome gform_wrapper form-display1_wrapper gform_legacy_markup_wrapper'
+                                    id=gform_wrapper_1>
+                                    <form method=post  class='form-display1'  action="{%  url 'contact' %}" >
+                                    {% csrf_token %}
+                                        <div class='gform_body gform-body'>
+                                            <div id=gform_page_1_1 class=gform_page>
+                                                <div class=gform_page_fields>
+                                                    <ul id=gform_fields_1
+                                                        class='gform_fields top_label form_sublabel_below description_below'>
+                                                        <li id=field_1_1
+                                                            class="gfield user-icon gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"
+                                                            data-js-reload=field_1_1>
+                                                            <div class='ginput_container ginput_container_text'>
+                                                                <input name="full_name" required
+                                                                    type=text  class=medium
+                                                                    tabindex=152 placeholder='Full Name'
+
+                                                                    >
+                                                            </div>
+                                                        </li>
+                                                        <li id=field_1_3
+                                                            class="gfield mail-icon gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"
+                                                            data-js-reload=field_1_3>
+                                                            <div class='ginput_container ginput_container_email'>
+                                                                <input name="email" required
+                                                                    type=email value class=medium
+                                                                    tabindex=153 placeholder='Email Address'
+
+                                                                    >
+                                                            </div>
+                                                        </li>
+                                                        <li id=field_1_4
+                                                            class="gfield phone-icon field_sublabel_below field_description_below gfield_visibility_visible"
+                                                            data-js-reload=field_1_4>
+                                                            <div class='ginput_container ginput_container_phone'>
+                                                                <input name="phone_number" required
+                                                                    type=tel value class=medium
+                                                                    tabindex=154 placeholder='Phone Number'
+                                                                    >
+                                                            </div>
+                                                        </li>
+                                                         <input type="hidden" name="referer" value="{{ request.path }}">
+                                                    </ul>
+                                                </div>
+                                                <div class='gform_page_footer top_label'>
+                                                    <input type=submit
+                                                        class='gform_next_button button' value='Get Started'
+                                                        tabindex=155
+                                                       >
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <p style="display: none !important;"><label>&#916;<textarea
+                                                    name=ak_hp_textarea cols=45 rows=8
+                                                    maxlength=100></textarea></label><input type=hidden id=ak_js_1
+                                                name=ak_js value=224>
+                                            <script>document.getElementById("ak_js_1").setAttribute("value", (new Date()).getTime());</script>
+                                        </p>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <style>
+.featured-services {
+    position: relative;
+    overflow: hidden; /* Ensures the image does not overflow */
+}
+
+#results_image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+}
+
+/* Ensure responsiveness */
+@media (max-width: 768px) {
+    #results_image {
+        height: auto; /* Adjusts height for mobile devices */
+    }
+}
+</style>
+        <section  class="featured-services text-center bg-cover text-white">
+
+            <picture>
+        <img id="results_image" src="{% static 'images/index_results.avif' %}" style="position:absolute;opacity:0.2;object-fit:cover;" alt="Results-driven Work">
+        
+            </picture>
+            <div class=container-fluid>
+                <h2 class="font-weight-semibold" data-aos="fade-down" data-aos-duration="1000">Results-driven
+                    Development</h2>
+                <ul class="featured-services__list list-unstyled d-xl-flex flex-wrap">
+                    <li>
+                        <div class="featured-service same-height" data-aos=fade-up data-aos-duration=1000>
+                            <i class="icon icon-web-programming"></i>
+                            <h3 class="h5 font-weight-bold"><a href="{% url 'service' 'web-design-and-development' %}" class=stretched-link>Web
+                                    Design And Development</a></h3>
+                            <p>Create a brand and communicate your value.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="featured-service same-height" data-aos=fade-up data-aos-duration=1000>
+                            <i class="icon icon-analysis"></i>
+                            <h3 class="h5 font-weight-bold"><a href="{% url 'service' 'e-commerce-development' %}"
+                                    class=stretched-link>E-Commerce Solutions</a></h3>
+                            <p>Build robust online stores that drive sales and enhance customer experiences.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="featured-service same-height" data-aos=fade-up data-aos-duration=1000>
+                            <i class="icon icon-objective"></i>
+                            <h3 class="h5 font-weight-bold"><a href="{% url 'service' 'ppc-services' %}"
+                                    class=stretched-link>PPC</a></h3>
+                            <p>Put your business in front of the right people today.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="featured-service same-height" data-aos=fade-up data-aos-duration=1000>
+                            <i class="icon icon-email-marketing"></i>
+                            <h3 class="h5 font-weight-bold"><a href="{% url 'service' 'email-and-sms-services' %}"  class=stretched-link>Email & SMS</a></h3>
+                            <p>Get more out of your current website visitors.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="featured-service same-height" data-aos=fade-up data-aos-duration=1000>
+                            <i class="icon icon-social-media"></i>
+                            <h3 class="h5 font-weight-bold"><a href="{% url 'service' 'web-maintenance-and-support' %}"  class=stretched-link>Website Maintenance</a></h3>
+                            <p>Keep your website secure, fast, and up-to-date with our ongoing support services</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="our-story container-fluid lazyload">
+            <template>
+                <div class=row>
+                    <div style="margin-top:3rem;" class=" col-xl-6 column" data-aos=fade-up-right data-aos-duration=1>
+                        <img style="margin-top:3rem;" src="{% static 'images/united.jpg' %}" alt="united image in index page"   style="width:100%; object-fit: fill;" />
+
+
+                    </div>
+                    <div class="col-xl-6 column" data-aos=fade-up-left data-aos-duration=1000>
+                        <h2 class="font-weight-semibold">Our Story</h2>
+                        <p>Founded with a vision to transform the digital landscape, Arm Solutions began its journey as a small team of passionate web developers and designers. We saw a growing need for high-quality, customized web solutions that could cater to the unique demands of diverse businesses. From our humble beginnings, we have grown into a full-fledged web development agency, committed to delivering top-notch websites, eCommerce platforms, and maintenance services..</p>
+                        <a class=" story-show-more js-story-more" href=#>Read More</a>
+                        <div  style="display:none;" class=show-more-text>
+                            <p>Our dedication to excellence and customer satisfaction has fueled our growth. We take pride in our ability to adapt to the ever-changing digital world, continuously updating our skills and knowledge to provide cutting-edge solutions. Each project we undertake is a testament to our creativity, technical prowess, and unwavering commitment to our clients’ success. At Arm Solutions], we don’t just build websites; we build lasting relationships and digital experiences that make a difference.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </template>
+        </section>
+        <section class="block-team container-fluid lazyload">
+            <template>
+                <div class=row>
+                    <div class=col-xl-4>
+                        <div class=text-wrap data-aos=zoom-in-right data-aos-duration=10>
+                            <h2 class="font-weight-semibold">The team you need to succeed</h2>
+                            <p class="d-none d-md-block">Fueled by passion and a commitment to our clients, our team of experts drives performance for small businesses and medium size companies alike..</p>
+                            <a href="{% url 'services' %}" class="btn btn-primary d-none d-md-block">Discover
+                                Arm solutions</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 img-holder" data-aos=zoom-in-left data-aos-duration=1000>
+                        <picture>
+                            <source srcset="{% static 'images/experts.jpg' %}" media="(min-width: 1025px) and (max-width: 1110px)">
+                            <source srcset="{% static 'images/experts.jpg' %}" media="(min-width: 769px) and (max-width: 1024px)">
+                            <source srcset="{% static 'images/experts.jpg' %}" media="(min-width: 583px) and (max-width: 768px)">
+                            <source srcset="{% static 'images/experts.jpg' %}" media="(min-width: 544px) and (max-width: 582px)">
+                            <source srcset="{% static 'images/experts.jpg' %}" media="(min-width: 529px) and (max-width: 543px)">
+                            <source srcset="{% static 'images/experts.jpg' %}" media="(min-width: 437px) and (max-width: 528px)">
+                            <source srcset="{% static 'images/experts.jpg' %}" media="(min-width: 350px) and (max-width: 436px)">
+                            <source srcset="{% static 'images/experts.jpg' %}" media="(min-width: 301px) and (max-width: 349px)">
+                            <source srcset="{% static 'images/experts.jpg' %}" media="(min-width: 237px) and (max-width: 300px)">
+                            <source srcset="{% static 'images/experts.jpg' %}" media="(min-width: 76px) and (max-width: 236px)">
+                            <source srcset="{% static 'images/experts.jpg' %}" media="(max-width: 75px)">
+                            <img width=1110 height=885 src= "{%static 'images/experts.jpg' %}" class="attachment-full size-full"
+                                alt="arm solution team">
+                        </picture>
+                    </div>
+                </div>
+
+            </template>
+        </section>
+</main>
+</div>
+{% include 'includes/footer.html' %}
+
+
+
+    <script async src="{% static 'wp-content/cache/minify/b33c5.js' %}"></script>
+
+</body>
+{% endblock %}
+

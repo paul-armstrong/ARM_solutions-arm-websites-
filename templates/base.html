@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang=en-US style="overflow-x:hidden;">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HCENES4HZ8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HCENES4HZ8');
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="thumbnail" content="{% static 'images/logo.png' %}">
+      <link rel="icon" href="{% static 'images/logo.png' %}" type="image/png">
+      <link rel="icon" href="{% static 'images/logo.png' %}" type="image/x-icon">
+      <link rel="canonical" href="{{canonical_url}}" />
+    <link rel=preload href="{% static 'wp-includes/js/jquery/jquery.minaf6c.js' %}" as=script>
+    {% block meta %}{% endblock %}
+        <meta property="og:image" content="https://arm-solutions.co.uk/static/images/logo.png"> <!-- Add an image URL for better engagement on social media -->
+      <meta property="og:url" content="https://arm-solutions.co.uk/static/images/logo.png"> <!-- Ensure this matches your site's URL -->
+    {% block title %} {% endblock %}
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <link rel=stylesheet href="{% static 'wp-content/cache/minify/09b42.css' %}" media=all>
+
+    <script async src="{% static 'wp-content/cache/minify/8a587.js' %}"></script>
+    <script src="{% static 'wp-includes/js/jquery/jquery.minaf6c.js' %}" id=jquery-core-js></script>
+
+
+    <script>var ss;</script>
+
+
+</head>
+{% block content %}{% endblock %}
+</html>

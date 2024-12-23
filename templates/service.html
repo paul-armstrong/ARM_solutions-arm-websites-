@@ -1,0 +1,541 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+<title>{{service.title}}</title>
+{% endblock %}
+{% block content %}
+
+{% block meta %}
+<meta name="title" content="Our Service {{service.title}} | ARM Solutions UK">
+<meta name="index" content="Arm Solutions Uk,web development services, {{service.title}}, {{service.top_header}}, software development, e-commerce solutions, web design, ARM Solutions, ARM Solutions services, UK web development, professional web services">
+<meta name="description" content="Explore the {{service.title}} services offered by ARM Solutions in the UK. {{service.top_header}}. Our expert team delivers innovative solutions tailored to your needs.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{service.title}} | ARM Solutions UK">
+<meta property="og:description" content="Discover the comprehensive {{service.title}} provided by ARM Solutions in the UK. {{service.content_header_1}}. Partner with us for top-notch digital solutions.">
+<meta name="keywords" content="web development services, {{service.title}}, {{service.top_header}}, software development, e-commerce solutions, web design, ARM Solutions, ARM Solutions services, UK web development, professional web services, custom web solutions">
+
+
+{% endblock %}
+    <link
+    rel=stylesheet href="{% static 'wp-content/cache/minify/2c27c.css' %}" media=all>
+  <script async src="{% static 'wp-content/cache/minify/8a587.js' %}"></script>
+      <script src="{% static 'wp-includes/js/jquery/jquery.minaf6c.js' %}" id=jquery-core-js></script>
+
+   </head>
+   <body
+      class="page-template page-template-page-templates page-template-tpl-services-category page-template-page-templatestpl-services-category-php page page-id-43 page-parent has-sidebar">
+      {% include 'includes/header.html' %}
+   <main
+            id=main class=site-content>
+            <section style="height:100vh"
+               class="inner-banner ppc-banner inner-banner__alt bg-cover banner-overlay" data-aos=fade-up>
+               <img
+                  width=2000 height=800 src="{% static 'images/web-deisgn-tile-banner.webp' %}" class=bg-image alt="Web Design Service Banner" style="display: none;" fetchpriority=high srcset="{% static 'images/web-deisgn-tile-banner.webp' %}" sizes="(max-width: 2000px) 100vw, 2000px" data-preload=1>
+               <div
+                  class=inner-banner__altcontent>
+                  <div
+                     class=row>
+                     <div
+                        class="col-lg-7 col-xxl-8 align-self-center inner-banner__altinfo">
+                        <div
+                           class=inner-banner__alttext data-aos=fade-up data-aos-duration=1000>
+                           <div
+                              class=breadcrumbs>
+                              <h1>{{service.top_header}}</h1>
+                           </div>
+                           <h2>{{service.content_header_1}}</h2>
+                           <p>{{service.content_text_1}}</p>
+
+                        </div>
+                     </div>
+
+                  </div>
+               </div>
+            </section>
+
+            <section
+               class=webdesign-services>
+               <div
+                  class=webdesign-services__content>
+                  <div
+                     class="webdesign-services__item ">
+                     <div
+                        class=row>
+                        <div
+                           class="col-lg-6  align-self-center">
+                           <div
+                              class=webdesign-services__text data-aos=fade-up data-aos-duration=1000>
+                              <h3>{{service.content_header_2}}</h3>
+                              <p>{{service.content_text_2}}</p>
+                           </div>
+                        </div>
+                        <div
+                           class="col-lg-6  lazyload" data-aos=fade-down data-aos-duration=1000>
+                           <template>
+                              <div
+                                 class="webdesign-services__media webdesign-services__media">
+                                 <figure>
+                                    <picture>
+                                       <img
+                                          width=483 height=466 src="{% static 'images/service.avif' %}" class="attachment-full size-full" alt="Elevate your business from our web design team" decoding=async>
+                                    </picture>
+                                 </figure>
+                              </div>
+                           </template>
+                        </div>
+                     </div>
+                  </div>
+                  <div
+                     class="webdesign-services__item webdesign-services__itemalt">
+                     <div
+                        class=row>
+                        <div
+                           class="col-lg-6 order-lg-2 order-1 align-self-center">
+                           <div
+                              class=webdesign-services__text data-aos=fade-up data-aos-duration=1000>
+                              <h3>{{service.content_header_3}}</h3>
+                              <p>{{service.content_text_3}}</p>
+                           </div>
+                        </div>
+                        <div
+                           class="col-lg-6 order-lg-1 order-2 lazyload" data-aos=fade-down data-aos-duration=1000>
+                           <template>
+                              <video
+                                 id=video class=d-block autoplay=3 muted playsinline poster="{% static 'images/animation-graphic-webdesign.gif' %}" style="object-fit: cover;" >
+                                 <source
+                                    src="{% static 'images/animation-graphic-webdesign.webm' %}"  type=video/webm>
+                              </video>
+                           </template>
+                        </div>
+                     </div>
+                  </div>
+                  <div
+                     class="webdesign-services__item webdesign-services__itembottom">
+                     <div
+                        class=row>
+                        <div
+                           class="col-lg-6  align-self-center">
+                           <div
+                              class=webdesign-services__text data-aos=fade-up data-aos-duration=1000>
+                              <h3>{{service.content_header_4}}</h3>
+                              <p>{{service.content_text_4}}</p>
+                           </div>
+                        </div>
+                        <div
+                           class="col-lg-6  lazyload" data-aos=fade-down data-aos-duration=1000>
+                           <template>
+                              <div
+                                 class="webdesign-services__media webdesign-services__mediabottom">
+                                 <figure>
+                                    <picture>
+
+                                       <img
+                                          width=1097 height=760 src="{% static 'images/webdesign-for-audience-attraction.webp' %}" class="attachment-full size-full" alt="Web Design services for audience attraction" decoding=async>
+                                    </picture>
+                                 </figure>
+                              </div>
+                           </template>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section
+               class="expert-cta services-cta">
+               <div
+                  class=container>
+                  <div
+                     class=expert-cta__content data-aos=zoom-in data-aos-duration=1000>
+                     <div
+                        class=expert-cta__heading>
+                        <h2>Let’s make things happen</h2>
+                        <p>Partner with one of the best UK Web Development Company - before your competitor does.</p>
+                     </div>
+
+                     <div
+                        class=expert-cta__bottom>
+                        <p> <a
+                           href=tel:07444106984>
+                           call 07444106984 </a> to get started today
+                        </p>
+                     </div>
+                  </div>
+
+
+               </div>
+            </section>
+{% if website %}
+            <section
+               class=services-features>
+               <div
+                  class=services-features__heading data-aos=fade-down data-aos-duration=1000>
+                  <h2>Website features that you will love</h2>
+               </div>
+               <div
+                  class=services-features__wrapper>
+                  <div
+                     class=services-features__content>
+                     <div
+                        class=container>
+                        <div
+                           class=services-features__top>
+                           <div
+                              class=row>
+                              <div
+                                 class=services-features__item data-aos=zoom-in data-aos-duration=1000>
+                                 <div
+                                    class=img-wrap>
+                                    <figure>
+                                       <picture>
+
+                                          <img
+                                             width=80 height=74 src="{% static 'images/responsive-websites.png' %}" class="attachment-full size-full" alt="Responsive website look great everywhere" decoding=async>
+                                       </picture>
+                                    </figure>
+                                 </div>
+                                 <div
+                                    class=text-wrap>
+                                    <h4>Look Great Everywhere</h4>
+                                    <p>Your responsive website will look great on desktop, tablet & mobile.</p>
+                                 </div>
+                              </div>
+                              <div
+                                 class=services-features__item data-aos=zoom-in data-aos-duration=1000>
+                                 <div
+                                    class=img-wrap>
+                                    <figure>
+                                       <img
+                                          width=61 height=74 src="{% static 'images/safe-and-secure.webp' %}" class="attachment-full size-full" alt="Implement latest website security measures" decoding=async>
+                                    </figure>
+                                 </div>
+                                 <div
+                                    class=text-wrap>
+                                    <h4>Safe & Secure</h4>
+                                    <p>We implement the latest & greatest in website security.</p>
+                                 </div>
+                              </div>
+                              <div
+                                 class=services-features__item data-aos=zoom-in data-aos-duration=1000>
+                                 <div
+                                    class=img-wrap>
+                                    <figure>
+                                       <picture>
+
+                                          <img
+                                             width=81 height=77 src="{% static 'images/website-loads-super-fast.webp' %}" class="attachment-full size-full" alt="Site loads super fast" decoding=async>
+                                       </picture>
+                                    </figure>
+                                 </div>
+                                 <div
+                                    class=text-wrap>
+                                    <h4>Load Super Fast</h4>
+                                    <p>Site speed matters. We optimize your Google Page Speed score.</p>
+                                 </div>
+                              </div>
+                              <div
+                                 class=services-features__item data-aos=zoom-in data-aos-duration=1000>
+                                 <div
+                                    class=img-wrap>
+                                    <figure>
+                                       <picture>
+
+                                          <img
+                                             width=81 height=74 src="{% static 'images/website-visitors-tracking.webp' %}" class="attachment-full size-full" alt="Deep insight into your site’s visitors" decoding=async>
+                                       </picture>
+                                    </figure>
+                                 </div>
+                                 <div
+                                    class=text-wrap>
+                                    <h4>Track Your Visitors</h4>
+                                    <p>Google Analytics gives you deep insight into your site’s users.</p>
+                                 </div>
+                              </div>
+                              <div
+                                 class=services-features__item data-aos=zoom-in data-aos-duration=1000>
+                                 <div
+                                    class=img-wrap>
+                                    <figure>
+                                       <img
+                                          width=75 height=74 src="{% static 'images/seo-optimized-webdesign.webp' %}" class="attachment-full size-full" alt="Optimized Onsite SEO" decoding=async>
+                                    </figure>
+                                 </div>
+                                 <div
+                                    class=text-wrap>
+                                    <h4>Optimized For Search</h4>
+                                    <p>Onsite SEO best practices enable you to get more from search.</p>
+                                 </div>
+                              </div>
+                              <div
+                                 class=services-features__item data-aos=zoom-in data-aos-duration=1000>
+                                 <div
+                                    class=img-wrap>
+                                    <figure>
+                                       <img
+                                          width=74 height=74 src="{% static 'images/easy-to-manage.png' %}" class="attachment-full size-full" alt="Easy To Manage with different CMS" decoding=async>
+                                    </figure>
+                                 </div>
+                                 <div
+                                    class=text-wrap>
+                                    <h4>Easy To Manage</h4>
+                                    <p>Platforms like WordPress and Magento empower you to run your own site.</p>
+                                 </div>
+                              </div>
+                              <div
+                                 class=services-features__item data-aos=zoom-in data-aos-duration=1000>
+                                 <div
+                                    class=img-wrap>
+                                    <figure>
+                                       <picture>
+
+                                          <img
+                                             width=81 height=77 src="{% static 'images/ongoing-support.png' %}" class="attachment-full size-full" alt="Ongoing Support for web design" decoding=async>
+                                       </picture>
+                                    </figure>
+                                 </div>
+                                 <div
+                                    class=text-wrap>
+                                    <h4>Ongoing Support</h4>
+                                    <p>Prefer to be hands-off? Ask about our simple & affordable support plans.</p>
+                                 </div>
+                              </div>
+                              <div
+                                 class=services-features__item data-aos=zoom-in data-aos-duration=1000>
+                                 <div
+                                    class=img-wrap>
+                                    <figure>
+                                       <img
+                                          width=69 height=76 src="{% static 'images/full-ownership-of-everything.png' %}" class="attachment-full size-full" alt="It’s All Yours" decoding=async>
+                                    </figure>
+                                 </div>
+                                 <div
+                                    class=text-wrap>
+                                    <h4>It’s All Yours</h4>
+                                    <p>You retain 100% ownership of everything we build for you.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div
+                           class=services-features__slider data-slick='{"slidesToShow":1,"slidesToScroll":1,"arrows":false,"dots":true}'>
+                           <div
+                              class=services-features__item>
+                              <div
+                                 class=img-wrap>
+                                 <figure>
+                                    <img
+                                       width=80 height=74 src="{% static 'images/responsive-websites.png' %}" class="attachment-full size-full" alt="Responsive website look great everywhere" decoding=async srcset="{% static 'images/responsive-websites.png' %}"  sizes="(max-width: 80px) 100vw, 80px">
+                                 </figure>
+                              </div>
+                              <div
+                                 class=text-wrap>
+                                 <h4>Look Great Everywhere</h4>
+                                 <p>Your responsive website will look great on desktop, tablet & mobile.</p>
+                              </div>
+                           </div>
+                           <div
+                              class=services-features__item>
+                              <div
+                                 class=img-wrap>
+                                 <figure>
+                                    <img
+                                       width=61 height=74 src="{% static 'images/safe-and-secure.webp' %}" class="attachment-full size-full" alt="Implement latest website security measures" decoding=async>
+                                 </figure>
+                              </div>
+                              <div
+                                 class=text-wrap>
+                                 <h4>Safe & Secure</h4>
+                                 <p>We implement the latest & greatest in website security.</p>
+                              </div>
+                           </div>
+                           <div
+                              class=services-features__item>
+                              <div
+                                 class=img-wrap>
+                                 <figure>
+                                    <img
+                                       width=81 height=77 src="{% static 'images/website-loads-super-fast.webp' %}" class="attachment-full size-full" alt="Site loads super fast" decoding=async srcset="{% static 'images/website-loads-super-fast.webp' %}" sizes="(max-width: 81px) 100vw, 81px">
+                                 </figure>
+                              </div>
+                              <div
+                                 class=text-wrap>
+                                 <h4>Load Super Fast</h4>
+                                 <p>Site speed matters. We optimize your Google Page Speed score.</p>
+                              </div>
+                           </div>
+                           <div
+                              class=services-features__item>
+                              <div
+                                 class=img-wrap>
+                                 <figure>
+                                    <img
+                                       width=81 height=74 src="{% static 'images/website-visitors-tracking.webp' %}"  class="attachment-full size-full" alt="Deep insight into your site’s visitors" decoding=async srcset="{% static 'images/website-visitors-tracking.webp' %}"  sizes="(max-width: 81px) 100vw, 81px">
+                                 </figure>
+                              </div>
+                              <div
+                                 class=text-wrap>
+                                 <h4>Track Your Visitors</h4>
+                                 <p>Google Analytics gives you deep insight into your site’s users.</p>
+                              </div>
+                           </div>
+                           <div
+                              class=services-features__item>
+                              <div
+                                 class=img-wrap>
+                                 <figure>
+                                    <img
+                                       width=75 height=74 src="{% static 'images/seo-optimized-webdesign.webp' %}" class="attachment-full size-full" alt="Optimized Onsite SEO" decoding=async>
+                                 </figure>
+                              </div>
+                              <div
+                                 class=text-wrap>
+                                 <h4>Optimized For Search</h4>
+                                 <p>Onsite SEO best practices enable you to get more from search.</p>
+                              </div>
+                           </div>
+                           <div
+                              class=services-features__item>
+                              <div
+                                 class=img-wrap>
+                                 <figure>
+                                    <img
+                                       width=74 height=74 src="{% static 'images/easy-to-manage.png' %}" class="attachment-full size-full" alt="Easy To Manage with different CMS" decoding=async>
+                                 </figure>
+                              </div>
+                              <div
+                                 class=text-wrap>
+                                 <h4>Easy To Manage</h4>
+                                 <p>Platforms like WordPress and Magento empower you to run your own site.</p>
+                              </div>
+                           </div>
+                           <div
+                              class=services-features__item>
+                              <div
+                                 class=img-wrap>
+                                 <figure>
+                                    <img
+                                       width=81 height=77 src="{% static 'images/ongoing-support.png' %}" class="attachment-full size-full" alt="Ongoing Support for web design" decoding=async srcset="{% static 'images/ongoing-support.png' %}" sizes="(max-width: 81px) 100vw, 81px">
+                                 </figure>
+                              </div>
+                              <div
+                                 class=text-wrap>
+                                 <h4>Ongoing Support</h4>
+                                 <p>Prefer to be hands-off? Ask about our simple & affordable support plans.</p>
+                              </div>
+                           </div>
+                           <div
+                              class=services-features__item>
+                              <div
+                                 class=img-wrap>
+                                 <figure>
+                                    <img
+                                       width=69 height=76 src="{% static 'images/full-ownership-of-everything.png' %}" class="attachment-full size-full" alt="It’s All Yours" decoding=async>
+                                 </figure>
+                              </div>
+                              <div
+                                 class=text-wrap>
+                                 <h4>It’s All Yours</h4>
+                                 <p>You retain 100% ownership of everything we build for you.</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            {% endif %}
+
+            <section
+               class=services-works>
+               <div
+                  class=container>
+                  <div
+                     class=services-works__heading data-aos=fade-down data-aos-duration=1000>
+                     <h2>Beyond Websites. Beyond Design.</h2>
+                  </div>
+                  <div
+                     class=services-works__content>
+                     <div style="display:flex;"
+                        class=services-works__slider >
+                        <div
+                           class=services-works__item data-aos=fade-down data-aos-duration=1000>
+                           <div
+                              class=item-wrap>
+                              <div
+                                 class=img-wrap>
+                                 <figure>
+
+                                       <img
+                                          width=480 height=500 src="{% static 'images/enchance_brand.webp' %}" class="attachment-full size-full" alt="Enhance brand with full suite of web design tools" decoding=async>
+                                 </figure>
+                              </div>
+                              <div
+                                 class=info-wrap>
+                                 <h4>Enhance your brand</h4>
+                                 <p>with our full suite of designing capabilities that’s right for your business.</p>
+                              </div>
+                              <div
+                                 class=btn-wrap>
+
+                              </div>
+                           </div>
+                        </div>
+                        <div
+                           class=services-works__item data-aos=zoom-in data-aos-duration=1000>
+                           <div
+                              class=item-wrap>
+                              <div
+                                 class=img-wrap>
+
+                                       <img
+                                          width=480 height=500 src="{% static 'images/better-faster-web-design.webp' %}" class="attachment-full size-full" alt="Better, faster web design services" decoding=async>
+                              </div>
+                              <div
+                                 class=info-wrap>
+                                 <h4>Do things better, faster</h4>
+                                 <p>with our deep expertise across web development technologies.</p>
+                              </div>
+                              <div
+                                 class=btn-wrap>
+
+                              </div>
+                           </div>
+                        </div>
+                        <div
+                           class=services-works__item data-aos=fade-up data-aos-duration=1000>
+                           <div
+                              class=item-wrap>
+                              <div
+                                 class=img-wrap>
+                                 <figure>
+
+                                       <img
+                                          width=480 height=501 src="{% static 'images/supported.webp' %}" class="attachment-full size-full" alt="Reliable support and proactive web design solutions" decoding=async>
+                                 </figure>
+                              </div>
+                              <div
+                                 class=info-wrap>
+                                 <h4>Know you’re supported</h4>
+                                 <p>with reliable ongoing support and proactive solutions that keep things 											running.</p>
+                              </div>
+                              <div
+                                 class=btn-wrap>
+
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+
+         </main>
+         {% include 'includes/footer.html' %}
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/imagemapster/1.5.4/jquery.imagemapster.min.js?ver=6.5.3" id=imagemapster-js-js></script>
+
+      <script async src="{% static 'wp-content/cache/minify/66e5c.js' %}"></script>
+
+
+   </body>
+{% endblock %}

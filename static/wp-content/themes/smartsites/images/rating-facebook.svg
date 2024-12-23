@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="123.5" height="86" viewBox="0 0 123.5 86">
+    <defs>
+        <style>
+            .cls-1{fill:#03a9f4}.cls-2{fill:#fff}.cls-3{fill:#0b69a7}.cls-4{filter:url(#Oval_3)}
+        </style>
+        <filter id="Oval_3" width="86" height="86" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dx="3" dy="6"/>
+            <feGaussianBlur result="blur" stdDeviation="4.5"/>
+            <feFlood flood-color="#0b69a7" flood-opacity=".133"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="Group_1352" data-name="Group 1352" transform="translate(-527.5 -2371.5)">
+        <g id="Group_28" data-name="Group 28" transform="translate(-1079 838)">
+            <rect id="Rectangle_5" width="46" height="26" class="cls-1" data-name="Rectangle 5" rx="13" transform="translate(1684 1572)"/>
+            <g id="Group_27" data-name="Group 27">
+                <path id="_5" d="M.36-5.886h-.846a.793.793 0 0 0-.711.378q-.243.378-.513.378H-3.2q-.378 0-.378-.36v-5.71a.334.334 0 0 1 .378-.378h6.26a.334.334 0 0 1 .378.378v1.368a.334.334 0 0 1-.378.378H-1.3V-6.8a1.4 1.4 0 0 1 1.516-.9h.756a2.466 2.466 0 0 1 2.79 2.79v1.98a2.914 2.914 0 0 1-.774 2.165A2.965 2.965 0 0 1 .81 0H-.774a3.012 3.012 0 0 1-2.2-.756 2.908 2.908 0 0 1-.774-2.178v-.36q0-.4.378-.4h1.53q.378 0 .378.4v.342a1.1 1.1 0 0 0 .243.8 1.1 1.1 0 0 0 .8.243h.851a1.239 1.239 0 0 0 .846-.243 1.032 1.032 0 0 0 .27-.8v-1.62A1.577 1.577 0 0 0 1.3-5.607a1.236 1.236 0 0 0-.94-.279z" class="cls-2" data-name="5" transform="translate(1700 1591)"/>
+                <path id="Path_3004" d="M5.571-5.953c0-.2-.214-.281-.375-.308L1.835-6.75.328-9.8c-.06-.127-.174-.275-.328-.275s-.268.147-.328.275l-1.507 3.05-3.365.489c-.167.027-.375.107-.375.308a.521.521 0 0 0 .167.321l2.438 2.371-.572 3.348a.908.908 0 0 0-.013.134c0 .174.087.335.281.335a.565.565 0 0 0 .268-.08L0-1.1 3.007.475a.544.544 0 0 0 .268.08c.194 0 .275-.161.275-.335a.9.9 0 0 0-.008-.133l-.575-3.348L5.4-5.632a.5.5 0 0 0 .171-.321z" class="cls-2" data-name="Path 3004" transform="translate(1712 1589)"/>
+            </g>
+        </g>
+        <g class="cls-4" transform="translate(527.5 2371.5)">
+            <circle id="Oval_3-2" cx="29.5" cy="29.5" r="29.5" class="cls-2" data-name="Oval 3" transform="translate(10.5 7.5)"/>
+        </g>
+        <circle id="Oval_3-3" cx="29.5" cy="29.5" r="29.5" class="cls-2" data-name="Oval 3" transform="translate(538 2379)"/>
+        <g id="facebook-logo" transform="translate(560 2395)">
+            <path id="Shape" d="M14.435.006L10.837 0a6.231 6.231 0 0 0-6.654 6.645v3.063H.566a.558.558 0 0 0-.566.551V14.7a.558.558 0 0 0 .566.551h3.617v11.2a.558.558 0 0 0 .566.549h4.72a.558.558 0 0 0 .566-.551v-11.2h4.23a.558.558 0 0 0 .566-.551v-4.439a.544.544 0 0 0-.166-.389.574.574 0 0 0-.4-.162h-4.231v-2.6c0-1.248.306-1.882 1.977-1.882h2.424A.558.558 0 0 0 15 4.678V.556a.558.558 0 0 0-.565-.55z" class="cls-3"/>
+        </g>
+    </g>
+</svg>
